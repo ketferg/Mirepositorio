@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurboClean - Limpieza de Motor y Combustión</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar incluido -->
+    <div id="navbar-container"></div>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-4">Revoluciona la Limpieza de tu Motor</h1>
+            <p class="lead mb-5">Elimina depósitos de carbón y optimiza la combustión con nuestra fórmula avanzada</p>
+            <a href="#producto" class="btn btn-buy btn-lg"><i class="bi bi-lightning-charge me-2"></i>Descubrir Producto</a>
+        </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <div class="container">
+        <!-- Producto principal -->
+        <section id="producto" class="my-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="TurboClean Producto" class="product-img img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">TurboClean Pro<span class="text-warning">+</span></h2>
+                    <p class="lead text-secondary mb-4">Sistema avanzado de limpieza para motores de combustión interna. Elimina hasta el 95% de los depósitos de carbón en una sola aplicación.</p>
+                    
+                    <div class="mb-4">
+                        <span class="specs-badge"><i class="bi bi-droplet"></i> 500ml</span>
+                        <span class="specs-badge"><i class="bi bi-lightning"></i> Acción Rápida</span>
+                        <span class="specs-badge"><i class="bi bi-shield-check"></i> 100% Seguro</span>
+                        <span class="specs-badge"><i class="bi bi-tree"></i> Biodegradable</span>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <span class="price-tag">$49.99</span>
+                        <span class="text-secondary ms-3">+ envío gratis</span>
+                    </div>
+                    
+                    <div class="d-grid gap-3 d-md-flex">
+                        <button class="btn btn-buy btn-lg px-5"><i class="bi bi-cart-plus me-2"></i>Comprar Ahora</button>
+                        <button class="btn btn-outline-secondary btn-lg px-5"><i class="bi bi-info-circle me-2"></i>Más Info</button>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <p class="text-secondary"><i class="bi bi-truck text-warning me-2"></i>Envío gratuito a todo el país</p>
+                        <p class="text-secondary"><i class="bi bi-credit-card text-warning me-2"></i>Pagos en cuotas sin interés</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Especificaciones técnicas detalladas -->
+        <section id="especificaciones" class="specs-section">
+            <h3 class="display-6 fw-bold mb-5 text-center">Especificaciones Técnicas</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-calculator me-2"></i>Composición Química:</span>
+                        <span class="spec-value">Surfactantes biodegradables, solventes orgánicos</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-thermometer-half me-2"></i>Temperatura de uso:</span>
+                        <span class="spec-value">15°C a 35°C</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-clock me-2"></i>Tiempo de acción:</span>
+                        <span class="spec-value">10-15 minutos</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-droplet me-2"></i>Densidad:</span>
+                        <span class="spec-value">1.05 g/ml</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-shield me-2"></i>Compatibilidad:</span>
+                        <span class="spec-value">Gasolina, Diésel, Híbridos</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-bandaid me-2"></i>PH:</span>
+                        <span class="spec-value">7.2 (Neutro)</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-calendar me-2"></i>Caducidad:</span>
+                        <span class="spec-value">24 meses</span>
+                    </div>
+                    <div class="spec-item d-flex justify-content-between">
+                        <span class="spec-label"><i class="bi bi-box-seam me-2"></i>Presentación:</span>
+                        <span class="spec-value">Botella con dosificador</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beneficios -->
+        <section id="beneficios" class="my-5">
+            <h3 class="display-6 fw-bold mb-5 text-center">Beneficios para tu Motor</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-white rounded-4 shadow-sm">
+                        <div class="benefit-icon">
+                            <i class="bi bi-fuel-pump"></i>
+                        </div>
+                        <h4>Mejora la Combustión</h4>
+                        <p class="text-secondary">Optimiza la mezcla aire-combustible eliminando depósitos en inyectores y válvulas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-white rounded-4 shadow-sm">
+                        <div class="benefit-icon">
+                            <i class="bi bi-graph-up-arrow"></i>
+                        </div>
+                        <h4>Aumenta Potencia</h4>
+                        <p class="text-secondary">Recupera hasta un 15% de la potencia perdida por suciedad en el motor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center p-4 bg-white rounded-4 shadow-sm">
+                        <div class="benefit-icon">
+                            <i class="bi bi-currency-dollar"></i>
+                        </div>
+                        <h4>Ahorra Combustible</h4>
+                        <p class="text-secondary">Reduce el consumo hasta un 20% gracias a una combustión más eficiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer incluido -->
+    <div id="footer-container"></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script para cargar componentes -->
+    <script src="script.js"></script>
+</body>
+</html>
