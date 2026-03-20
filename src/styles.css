@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F4EBD0;
+}
+
+.hero-section {
+  background-color: #122620;
+  color: #F4EBD0;
+}
+
+.btn-oxford {
+  background-color: #D6AD60;
+  color: #122620;
+  border-radius: 0;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+.btn-oxford:hover {
+  background-color: #B68D40;
+  color: #F4EBD0;
+}
+
+.product-page {
+  background-color: #F4EBD0;
+  min-height: 100dvh;
+}
+
+.product-title {
+  color: #122620;
+  font-family: 'Playfair Display', serif;
+}
+
+.gold-text { color: #D6AD60; }
+.bronze-text { color: #B68D40; }
+.charcoal-bg { background-color: #122620; }
+.gold-border { border: 2px solid #D6AD60; }
+
+.footer-link, .nav-link {
+  color: #F4EBD0 !important;
+}
+

@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg" style="background-color: #122620; border-bottom: 3px solid #D6AD60; padding: 20px 0;">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/" style="font-family: 'Playfair Display', serif; font-size: 2rem; font-weight: 700; color: #D6AD60;">
+      OXFORD <span style="color: #F4EBD0; font-size: 0.8rem; display: block;">LEGAL & COMMERCIAL</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" style="color: #F4EBD0;">INICIO</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" style="color: #F4EBD0;" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+          <ul class="dropdown-menu" style="background-color: #122620; border: 1px solid #D6AD60;">
+            <li><a class="dropdown-item" routerLink="/producto-inyectores" style="color: #F4EBD0;">Limpiador de Inyectores PRO</a></li>
+            <li><a class="dropdown-item" routerLink="/producto-combustion" style="color: #F4EBD0;">Tratamiento de Combustión</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" routerLink="/especificaciones" style="color: #F4EBD0;">ESPECIFICACIONES</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="goToContacto()" style="cursor: pointer; color: #F4EBD0;">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
